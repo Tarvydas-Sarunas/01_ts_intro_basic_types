@@ -1,0 +1,4 @@
+let num = 5
+
+console.log('Hello TS', num );
+
