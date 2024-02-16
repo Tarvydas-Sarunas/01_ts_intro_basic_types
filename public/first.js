@@ -2,12 +2,12 @@
 // number, string, boolean, null, undefined, void
 let num = 5;
 num = 10;
-num = 'asd';
+num = 12;
 let str = 'James';
-str = true;
+str = 'true';
 let isAdmin = true;
 isAdmin = false;
-isAdmin = 0;
+isAdmin = false;
 isAdmin = !!0;
 isAdmin = Boolean(' ');
 isAdmin = Boolean('0');

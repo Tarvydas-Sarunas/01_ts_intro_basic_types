@@ -7,17 +7,17 @@ let num = 5;
 
 num = 10;
 
-num = 'asd';
+num = 12;
 
 let str = 'James';
 
-str = true;
+str = 'true';
 
 let isAdmin: boolean = true;
 
 isAdmin = false;
 
-isAdmin = 0
+isAdmin = false
 
 isAdmin = !!0
 
