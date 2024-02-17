@@ -29,9 +29,10 @@ function sum(sk1, sk2) {
 //   console.log('rez ===', rez);
 //   return rez  
 // }
-const makePrice = (value) => {
-    const rez = `$ ${value.toFixed(2)} `;
+const makePrice = (value, currency = '$') => {
+    const rez = `${currency} ${value.toFixed(2)} `;
     console.log('rez ===', rez);
     return rez;
 };
 makePrice(100);
+makePrice(100, '€');

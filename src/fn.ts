@@ -45,9 +45,10 @@ function sum(sk1: number, sk2: number): number {
 // }
 
 
-const makePrice = (value: number): string => {
-  const rez: string = `$ ${value.toFixed(2)} `
+const makePrice = (value: number, currency: string = '$'): string => {
+  const rez: string = `${currency} ${value.toFixed(2)} `
   console.log('rez ===', rez);
   return rez 
 }
 makePrice(100)
+makePrice(100, '€')
