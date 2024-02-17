@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "ts": "tsc --watch",
-    "js": "nodemon public/arrays.js"
+    "js": "nodemon public/obj.js"
   },
   "author": "S T",
   "license": "MIT",
