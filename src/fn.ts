@@ -37,10 +37,17 @@ function sum(sk1: number, sk2: number): number {
 // const aha = sum(sk3, sk4)
 // console.log('sept ===', aha)
 
-function makePrice(value: number): string  {
+// function makePrice(value: number): string  {
+//   const rez: string = `$ ${value.toFixed(2)} `
+//   console.log('rez ===', rez);
+//   return rez  
+
+// }
+
+
+const makePrice = (value: number): string => {
   const rez: string = `$ ${value.toFixed(2)} `
   console.log('rez ===', rez);
-  return rez  
-
+  return rez 
 }
 makePrice(100)
